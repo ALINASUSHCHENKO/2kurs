@@ -39,7 +39,7 @@ header-includes:
 :::
 ::: {.column width="30%"}
 
-![](/home/ansuthenko/2kurs/academic-presentation-markdown-template-master/presentation/image/asn.jpg)
+![](./image/asn.jpg)
 
 :::
 ::::::::::::::
@@ -63,55 +63,8 @@ header-includes:
 
 ## Материалы и методы
 
-- Процессор `pandoc` для входного формата Markdown
-- Результирующие форматы
-	- `pdf`
-	- `html`
-- Автоматизация процесса создания: `Makefile`
-
-# Создание презентации
-
-## Процессор `pandoc`
-
-- Pandoc: преобразователь текстовых файлов
-- Сайт: <https://pandoc.org/>
-- Репозиторий: <https://github.com/jgm/pandoc>
-
-## Формат `pdf`
-
-- Использование LaTeX
-- Пакет для презентации: [beamer](https://ctan.org/pkg/beamer)
-- Тема оформления: `metropolis`
-
-## Код для формата `pdf`
-
-```yaml
-slide_level: 2
-aspectratio: 169
-section-titles: true
-theme: metropolis
-```
-
-## Формат `html`
-
-- Используется фреймворк [reveal.js](https://revealjs.com/)
-- Используется [тема](https://revealjs.com/themes/) `beige`
-
-## Код для формата `html`
-
-- Тема задаётся в файле `Makefile`
-
-```make
-REVEALJS_THEME = beige 
-```
-# Результаты
-
-## Получающиеся форматы
-
-- Полученный `pdf`-файл можно демонстрировать в любой программе просмотра `pdf`
-- Полученный `html`-файл содержит в себе все ресурсы: изображения, css, скрипты
-
-# Элементы презентации
+- Программа 'VirtualBox'
+- OC 'Kali'
 
 ## Актуальность
 
@@ -133,27 +86,27 @@ REVEALJS_THEME = beige
 
 Установим выбранную ОС в виртуальной машине (как указано по минимальным возмодным значениям).
 
-![Установка Kali linux](/home/ansuthenko/2kurs/academic-presentation-markdown-template-master/presentation/image/11.png)
+![Установка Kali linux](./image/11.png)
 
 Все настройки виртуальной машины.
 
-![Вид ОС в виртуальной машине](/home/ansuthenko/2kurs/academic-presentation-markdown-template-master/presentation/image/12.png)
+![Вид ОС в виртуальной машине](./image/12.png)
 
 После загрузки Kali предлагает настроить рабочее место через BIOS.
 
-![Вид BIOS в Kali](/home/ansuthenko/2kurs/academic-presentation-markdown-template-master/presentation/image/13.png)
+![Вид BIOS в Kali](./image/13.png)
 
 В настройках нам предлагают выбрать язык, разметку диска, выбор программного обеспечения, GRUB boot loader и т.д.
 
-![Экран выбора языка ](/home/ansuthenko/2kurs/academic-presentation-markdown-template-master/presentation/image/14.png)
+![Экран выбора языка ](./image/14.png)
 
 Далее мы оставляем загружать нужные нам компоненты, параллельно выставляя параметры, о которых уже было сказано пунктом выше.
 
-![Экран загрузки компонентов](/home/ansuthenko/2kurs/academic-presentation-markdown-template-master/presentation/image/15.png)
+![Экран загрузки компонентов](./image/15.png)
 
 После загрузки перезапустим виртуальную машину. Нас встречает экран рабочего стола.
 
-![Экран рабочего стола](/home/ansuthenko/2kurs/academic-presentation-markdown-template-master/presentation/image/16.png) 
+![Экран рабочего стола](./image/16.png) 
 
 
 ## Результаты
