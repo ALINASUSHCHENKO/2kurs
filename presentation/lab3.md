@@ -40,7 +40,7 @@ header-includes:
 :::
 ::: {.column width="30%"}
 
-![](./image/asn.png)
+![](/image/asn.jpg)
 
 :::
 ::::::::::::::
